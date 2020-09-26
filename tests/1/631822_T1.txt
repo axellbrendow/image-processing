@@ -1,0 +1,162 @@
+Curso de Ciência da Computação
+Processamento de Imagens
+Número de matrícula: 631822
+Nome: Axell Brendow Batista Moreira
+
+Teste 1
+
+Instruções: Verifique que a prova e o gabarito correspondem ao seu número de matrícula. Para cada questão, coloque a opção correta no gabarito, entre os colchetes. Ex: Q1=[A]. Não faça qualquer outra alteração no gabarito, pois a correção é automática. Após inserir as respostas no gabarito, salve o arquivo com o mesmo nome e poste no SGA.
+
+Obs.: a) Considerar nas imagens binárias o valor 1 como sendo do objeto e o 0 como sendo fundo; b) As transformadas de Hough representam os ângulos nas colunas e as distâncias nas linhas de baixo para cima a partir de zero e variando em intervalos de 1 unidade.
+
+
+Q1: Determine a afirmativa correta a respeito da textura representada na imagem a seguir:
+
+00102
+11022
+20102
+11003
+01221
+
+a) O maior valor dentre os elementos de C2,1 é 2.
+b) A homogeneidade calculada sobre sua matriz de co-ocorrência C1,2 é maior que 1.
+c) O somatório dos valores de C2,2 é 16.
+    d) A matriz de co-ocorrência C1,2 é 4x4.
+e) A entropia calculada sobre sua matriz de co-ocorrência C1,2 é negativa.
+
+Q2: Considere um objeto cujo código de cadeia é 00754500031344. Após a rotação do objeto de 90 graus no sentido horário, o quinto dígito do seu número de forma será:
+
+a) 3
+b) 7
+c) 0
+    d) 2
+e) 1
+
+Q3: A segmentação da imagem a seguir, com semente no pixel central e similaridade definida como diferenças absolutas de até 2 tons de cinza resulta em uma área segmentada de:
+
+36004
+10334
+01530
+00100
+34002
+
+a) 5
+b) 7
+c) 10
+    d) 8
+e) 9
+
+Q4: Com relação ao sistema de percepção visual humano é correto afirmar que
+
+a) a retina realça bordas da imagem.
+b) cada bastonete da retina é sensível a uma cor primária (vermelho, verde ou azul).
+c) a pupila faz convergir o feixe de luz na retina.
+d) cada hemisfério processa a imagem captada pelo olho de lado oposto.
+    e) o nervo óptico é constituído pelos axônios dos cones e bastonetes.
+
+Q5: A imagem que representa um esqueleto válido é:
+
+a) 
+01100
+01000
+01000
+01000
+
+b) 
+01000
+01000
+01100
+01111
+
+c) 
+0100
+0100
+0110
+0100
+0100
+
+d) 
+01100
+00000
+00110
+00000
+
+    e) 
+010
+101
+010
+
+
+Q6: A opção abaixo que apresenta uma imagem binária e sua respectiva Transformada de Hough é:
+
+    a) 
+0000
+0011
+0011
+
+0001
+0022
+2021
+2300
+0101
+
+b) 
+0011
+0011
+0000
+
+0001
+0022
+2021
+2300
+0100
+
+c) 
+0000
+0011
+0011
+
+0001
+0022
+2021
+2300
+0200
+
+d) 
+0101
+0010
+0001
+
+0001
+0020
+1113
+1311
+2000
+
+e) 
+0001
+0010
+0011
+
+0001
+0022
+2021
+2300
+0100
+
+
+Q7: Deseja-se classificar imagens de parafusos ou arruelas, como exemplificado na Figura fornecida, mas com um objeto por imagem. Sabendo-se que os descritores da classe de parafusos têm maior variância que para as arruelas, escolha a sequência de técnicas de segmentação, descrição e reconhecimento, respectivamente, que será mais adequada à tarefa:
+
+a) códigos de cadeia, número de forma, distância Euclideana
+b) limiarização, deficiência convexa, distância de Mahalanobis
+c) limiarização, circularidade, distância Euclideana
+    d) códigos de cadeia, circularidade, distância de Mahalanobis
+e) limiarização, excentricidade, distância Euclideana
+
+Q8: Uma imagem digital sem compressão ocupa 5 MiBytes. Sabendo-se que a sua quantização é de 1024 tons de cinza, qual será sua resolução?
+
+a) 6 Mi pixels
+b) 1 Ki pixels
+c) 2 Mi pixels
+d) 2 Ki pixels
+    e) 4 Mi pixels

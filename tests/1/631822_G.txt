@@ -1,0 +1,15 @@
+Curso de Ciência da Computação
+Processamento de Imagens
+Número de matrícula: 631822
+Nome: Axell Brendow Batista Moreira
+
+Teste 1 - Gabarito
+
+Q1=[d]
+Q2=[d]
+Q3=[d]
+Q4=[e]
+Q5=[e]
+Q6=[a]
+Q7=[d]
+Q8=[e]

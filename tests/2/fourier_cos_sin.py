@@ -29,6 +29,6 @@ def fourier_cos_sin(imagem: List[int]):
 if len(sys.argv) > 1:
     imagem = [float(value) for value in sys.argv[1:]]
 else:
-    imagem = [2, 3, 4, 4]
+    imagem = [2+0j, 3+0j, 4+0j, 4+0j]
 
 fourier_cos_sin(imagem)

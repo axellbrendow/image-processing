@@ -1,0 +1,107 @@
+Curso de Ciência da Computação
+Processamento de Imagens
+Número de matrícula: 631822
+Nome: Axell Brendow Batista Moreira
+
+Teste 2
+
+Instruções: Verifique que a prova corresponde ao seu número de matrícula. Para cada questão, coloque a resposta **final** no formulário do Canvas, uma resposta por linha, em ordem crescente, com o seguinte formato: "n) resposta", onde n é o número da questão. Não carregue fotos. Cada resposta deve ficar em uma única linha.
+
+1 ) Para as imagens a seguir, determine o valor de X de modo que a convolução entre A e B resulte na imagem C, considerando valores externos como sendo 0.
+
+A=[ 4 0 X 4 4 ]
+B=[ 4 4 1 4 ]
+C=[ 16 16 12 40 34 28 20 16 ]
+
+4*4 4 4*x+16 16+x+16 16+4+4x 4+16+4x 16+16 16
+
+X = 2
+
+2 ) Dada a imagem A a seguir, determine o valor do pixel central da imagem digital resultante da aplicação do filtro da média 3x3 sobre ela.
+
+A:
+ 1 3 1 0 2 
+ 4 2 4 2 2 
+ 2 0 1 0 4 
+ 4 4 4 4 2 
+ 4 3 1 0 1 
+
+2+4+2+1+4+4+4 = 2.33
+
+
+3 ) Dada a imagem A a seguir, determine o valor do pixel central da imagem resultante da aplicação do filtro da mediana 3x3 sobre ela.
+
+A:
+ 4 0 3 0 0 
+ 1 4 0 3 1 
+ 1 4 1 1 3 
+ 2 0 2 3 4 
+ 0 0 2 4 4 
+
+0 0 1 1 2 3 3 4 4 mediana = 2
+
+4 ) Dada a imagem A e sua versão equalizada, B, determine o valor de Y, considerando que o maior valor de um pixel em B é 25.
+
+A:
+ 3 5 6 5 3 
+ 3 6 0 5 2 
+ 5 7 X 2 1 
+ 6 3 4 4 0 
+ 2 7 5 2 4 
+
+B:
+ 11 20 23 20 11 
+ 11 23 2 20 7 
+ 20 25 Y 7 3 
+ 23 11 15 15 2 
+ 7 25 20 7 15 
+0 -> 2
+1 -> 3
+2 -> 7
+3 -> 11
+4 -> 15
+5 -> 20
+6 -> 23
+7 -> 25
+
+X = 4
+Y = 15
+
+5 ) Determine o valor de X de modo que a aplicação do par de filtros de Sobel na imagem A resulte na imagem S, considerando valores externos como indefinidos.
+
+A:
+ 3 3 0 2 2 
+ 2 1 4 0 3 
+ 1 2 X 2 4 
+ 3 3 3 0 1 
+ 4 3 4 1 2 
+
+S:
+ 4 4 6 
+ 6 4 6 
+ 8 14 4 
+
+x = 1
+
+6 ) Dada o espectro de Fourier F abaixo, determine o valor de Z de forma que o pixel de coordenada x= 3  da imagem original seja  9 .
+
+F=[ 6.25+0i -0.75+1.5i Z -0.75-1.5i ]
+
+Z = 0.25+0j
+
+7 ) Dada o espectro de Fourier F abaixo, determine a soma dos valores dos pixel da imagem original.
+
+F=[ 2.67+0i 0.5+0.29i 0.17+0.29i 0+0i 0.17-0.29i 0.5-0.29i ]
+
+*** Para as demais questões, considere uma imagem A, à qual foi adicionado um ruído, resultando em uma imagem B. Os respectivos espectros de Fourier são dados abaixo.
+
+FA=[ 2.17+0i 0.13-0.07i -0.22-0.24i -0.14-0.34i 0.06+0.28i -0.43-0.01i 0.08+0.14i -0.28-0.08i -0.26+0.37i -0.06+0i -0.26-0.37i -0.28+0.08i 0.08-0.14i -0.43+0.01i 0.06-0.28i -0.14+0.34i -0.22+0.24i 0.13+0.07i ]
+
+FB=[ 2.17+0i 0.13-0.07i 3.78-0.24i -0.14-0.34i 0.06+0.28i -0.43-0.01i 0.08+0.14i -0.28-0.08i -0.26+0.37i -0.06+0i -0.26-0.37i -0.28+0.08i 0.08-0.14i -0.43+0.01i 0.06-0.28i -0.14+0.34i 3.78+0.24i 0.13+0.07i ]
+
+8 ) Qual a frequência do ruído?
+
+9 ) Qual a amplitude do ruído?
+
+10 ) Especifique um filtro ideal, no domínio da frequência, para remover o ruído.
+
